@@ -28,6 +28,14 @@
 		313566AB296F94FA0098B5EF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313566AA296F94FA0098B5EF /* DataModel.swift */; };
 		313566AD296F953B0098B5EF /* UserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313566AC296F953B0098B5EF /* UserVC.swift */; };
 		313566AF296F96C80098B5EF /* SenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313566AE296F96C80098B5EF /* SenderCell.swift */; };
+		319AC4DC29774F0C002B4CDF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319AC4D729774F0C002B4CDF /* Poppins-Bold.ttf */; };
+		319AC4DD29774F0C002B4CDF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319AC4D829774F0C002B4CDF /* Poppins-Medium.ttf */; };
+		319AC4DE29774F0C002B4CDF /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319AC4D929774F0C002B4CDF /* Poppins-Light.ttf */; };
+		319AC4DF29774F0C002B4CDF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319AC4DA29774F0C002B4CDF /* Poppins-Regular.ttf */; };
+		319AC4E029774F0C002B4CDF /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319AC4DB29774F0C002B4CDF /* Poppins-SemiBold.ttf */; };
+		319AC4E42977570B002B4CDF /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC4E32977570B002B4CDF /* SigninVC.swift */; };
+		319AC4E629775D92002B4CDF /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC4E529775D92002B4CDF /* SignupVC.swift */; };
+		319AC4E929775E00002B4CDF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319AC4E829775E00002B4CDF /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +52,14 @@
 		313566AA296F94FA0098B5EF /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		313566AC296F953B0098B5EF /* UserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVC.swift; sourceTree = "<group>"; };
 		313566AE296F96C80098B5EF /* SenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderCell.swift; sourceTree = "<group>"; };
+		319AC4D729774F0C002B4CDF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		319AC4D829774F0C002B4CDF /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		319AC4D929774F0C002B4CDF /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		319AC4DA29774F0C002B4CDF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		319AC4DB29774F0C002B4CDF /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		319AC4E32977570B002B4CDF /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		319AC4E529775D92002B4CDF /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		319AC4E829775E00002B4CDF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,8 @@
 		31356672296F82B30098B5EF /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				319AC4E729775DE7002B4CDF /* Extension */,
+				319AC4D529774EF2002B4CDF /* Fonts */,
 				3135669F296F86AD0098B5EF /* Controllers */,
 				3135669E296F86A00098B5EF /* Views */,
 				31356673296F82B30098B5EF /* AppDelegate.swift */,
@@ -114,8 +132,38 @@
 			children = (
 				313566A2296F874C0098B5EF /* ChatVC.swift */,
 				313566AC296F953B0098B5EF /* UserVC.swift */,
+				319AC4E32977570B002B4CDF /* SigninVC.swift */,
+				319AC4E529775D92002B4CDF /* SignupVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		319AC4D529774EF2002B4CDF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				319AC4D629774EFB002B4CDF /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		319AC4D629774EFB002B4CDF /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				319AC4D729774F0C002B4CDF /* Poppins-Bold.ttf */,
+				319AC4D929774F0C002B4CDF /* Poppins-Light.ttf */,
+				319AC4D829774F0C002B4CDF /* Poppins-Medium.ttf */,
+				319AC4DA29774F0C002B4CDF /* Poppins-Regular.ttf */,
+				319AC4DB29774F0C002B4CDF /* Poppins-SemiBold.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		319AC4E729775DE7002B4CDF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				319AC4E829775E00002B4CDF /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,10 +239,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319AC4DE29774F0C002B4CDF /* Poppins-Light.ttf in Resources */,
 				31356680296F82B50098B5EF /* LaunchScreen.storyboard in Resources */,
 				31356688296F833C0098B5EF /* GoogleService-Info.plist in Resources */,
+				319AC4DC29774F0C002B4CDF /* Poppins-Bold.ttf in Resources */,
+				319AC4DD29774F0C002B4CDF /* Poppins-Medium.ttf in Resources */,
 				3135667D296F82B50098B5EF /* Assets.xcassets in Resources */,
+				319AC4E029774F0C002B4CDF /* Poppins-SemiBold.ttf in Resources */,
 				3135667B296F82B30098B5EF /* Main.storyboard in Resources */,
+				319AC4DF29774F0C002B4CDF /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +260,10 @@
 			files = (
 				313566AB296F94FA0098B5EF /* DataModel.swift in Sources */,
 				313566AD296F953B0098B5EF /* UserVC.swift in Sources */,
+				319AC4E42977570B002B4CDF /* SigninVC.swift in Sources */,
+				319AC4E629775D92002B4CDF /* SignupVC.swift in Sources */,
 				313566A3296F874C0098B5EF /* ChatVC.swift in Sources */,
+				319AC4E929775E00002B4CDF /* Extension.swift in Sources */,
 				313566AF296F96C80098B5EF /* SenderCell.swift in Sources */,
 				313566A9296F94CE0098B5EF /* DataManager.swift in Sources */,
 				313566A1296F86DA0098B5EF /* ChatTableViewCell.swift in Sources */,
@@ -364,6 +420,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,6 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
